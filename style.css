@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    justify-content: center;
+
+    padding: 25px 5%;
+}
+
+.left-sidebar{
+    background: white;
+    flex-basis: 50%;
+    align-self: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+}
+.about-me{
+    border: 5px;
+    border-color: lightgrey;
+    border-style: solid;
+}
+.header{
+    display: flex;
+    min-height: 100px;
+    background-color: rgb(32, 179, 179);
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.userpic{
+    background-color: black;
+    border-radius: 50%;
+    min-height: 100px;
+    width: 100px;  
+    margin-left: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    top: 50px;
+}
+
+.name {
+    padding-left: 10px;
+    font-size: 50px;
+}
+
+.location {
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.bio{
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+.edit {
+    padding-left: 15px;
+    margin-bottom: 10px;
+    color: blue;
+}
+.location img{
+    width: 10px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.userpic img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.edit img{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
